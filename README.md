@@ -18,7 +18,9 @@ How to use Piggy:
 * Piggy is already installed in the Hack Club Slack workspace. Go to the Hack Club Slack and run commands starting with /piggy- (see above).
 
 Note: To use /piggy-translate, you have to put the text you want to translate after the command, e.g.
+
 Input: /piggy-translate Hello world this is piggy translate
+
 Output: elloHay orldway isthay isway iggypay anslatetray 🐷
 
 This was a fun project that helped me to learn JavaScript (I only knew a little bit from doing Sprig tutorials) and also how to make a Slack bot.
