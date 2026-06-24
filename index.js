@@ -75,7 +75,7 @@ app.command("/piggy-wikipedia", async ({ ack, respond }) => {
   await ack();
   await respond({
     text:
-`Have some real pigs! https://en.wikipedia.org/wiki/List_of_fictional_pigs`
+`Have some real pigs! https://en.wikipedia.org/wiki/Pig`
   });
 });
 
