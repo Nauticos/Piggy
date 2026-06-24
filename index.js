@@ -30,7 +30,8 @@ app.command("/piggy-help", async ({ ack, respond }) => {
 /piggy-ping - Check bot latency
 /piggy-translate - Translate text to Pig Latin
 /piggy-oink - 🐷
-/piggy-fiction - Pig Wikipedia
+/piggy-wikipedia - Real pig Wikipedia
+/piggy-fiction - Fictional pig Wikipedia
 /piggy-joke - Get a joke
 /piggy-quote - Get a random quote from a pig
 /piggy-idiom - Get a random pig idiom explained`
@@ -68,6 +69,14 @@ app.command("/piggy-translate", async ({ command, ack, respond }) => {
     await respond({
         text: `${translated} 🐷`
     });
+});
+
+app.command("/piggy-wikipedia", async ({ ack, respond }) => {
+  await ack();
+  await respond({
+    text:
+`Have some real pigs! https://en.wikipedia.org/wiki/List_of_fictional_pigs`
+  });
 });
 
 app.command("/piggy-fiction", async ({ ack, respond }) => {

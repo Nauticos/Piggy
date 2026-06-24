@@ -8,7 +8,8 @@ List of Commands:
 * /piggy-ping - Check bot latency
 * /piggy-translate - Translate text to Pig Latin
 * /piggy-oink - Oinks
-* /piggy-fiction - Pig Wikipedia
+* /piggy-wikipedia - Real pig Wikipedia
+* /piggy-fiction - Fictional pig Wikipedia
 * /piggy-joke - Get a joke
 * /piggy-quote - Get a random quote from a pig
 * /piggy-idiom - Get a random pig idiom explained
