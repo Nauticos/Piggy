@@ -121,15 +121,15 @@ app.command("/piggy-idiom", async ({ ack, respond }) => {
   await ack();
     const IdiomNumber = Math.floor(Math.random() * 10)
     const Idiom = [
-      "When pigs fly: A playful way to say that something will never happen because it is completely impossible.",
-      "Make a pig of yourself: To overeat or act in an overly greedy and messy manner at the dinner table.",
-      "Live high on the hog: To live a luxurious, extravagant lifestyle, specifically by being able to afford the most expensive cuts of meat.",
-      "Like a pig in mud: Extremely happy, relaxed, or content in your current situation.",
-      "A pigsty: Used to describe a room, house, or space that is filthy, disorderly, and completely untidy.",
-      "Buy a pig in a poke: Making a purchase or committing to a deal sight unseen, often resulting in getting something far inferior to expectations.",
-      "Lipstick on a pig: Making a superficial or cosmetic change to something in an attempt to make it look better, without addressing its fundamental flaws.",
-      "Sweat like a pig: To perspire heavily (which is ironic, as pigs do not actually sweat).",
-      "Pig-headed: Being stubbornly obstinate or unwilling to compromise on an idea",
+      "“When pigs fly”: A playful way to say that something will never happen because it is completely impossible.",
+      "“Make a pig of yourself”: To overeat or act in an overly greedy and messy manner at the dinner table.",
+      "“Live high on the hog”: To live a luxurious, extravagant lifestyle, specifically by being able to afford the most expensive cuts of meat.",
+      "“Like a pig in mud”: Extremely happy, relaxed, or content in your current situation.",
+      "“A pigsty”: Used to describe a room, house, or space that is filthy, disorderly, and completely untidy.",
+      "“Buy a pig in a poke”: Making a purchase or committing to a deal sight unseen, often resulting in getting something far inferior to expectations.",
+      "“Lipstick on a pig”: Making a superficial or cosmetic change to something in an attempt to make it look better, without addressing its fundamental flaws.",
+      "“Sweat like a pig”: To perspire heavily (which is ironic, as pigs do not actually sweat).",
+      "“Pig-headed”: Being stubbornly obstinate or unwilling to compromise on an idea",
     ];
     const CurrentIdiom = Idiom[IdiomNumber];
   await respond({
