@@ -96,7 +96,7 @@ ${response.data.punchline}`
 
 app.command("/piggy-quote", async ({ ack, respond }) => {
   await ack();
-    const QuoteNumber = Math.floor(Math.random() * 15)
+    const QuoteNumber = Math.floor(Math.random() * 14)
     const Quote = ["“It is deeply satisfying to know that my accomplishments are appreciated by a pig of your caliber.” - Wilbur (Charlotte's Web)",
       "“All animals are equal, but some animals are more equal than others.” - Napoleon (Animal Farm)",
       "“If you are jumping up and down in muddy puddles, you must wear your boots.” - Peppa Pig (Peppa Pig)",
@@ -119,7 +119,7 @@ app.command("/piggy-quote", async ({ ack, respond }) => {
 
 app.command("/piggy-idiom", async ({ ack, respond }) => {
   await ack();
-    const IdiomNumber = Math.floor(Math.random() * 10)
+    const IdiomNumber = Math.floor(Math.random() * 9)
     const Idiom = [
       "“When pigs fly”: A playful way to say that something will never happen because it is completely impossible.",
       "“Make a pig of yourself”: To overeat or act in an overly greedy and messy manner at the dinner table.",
