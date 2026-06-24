@@ -1,7 +1,7 @@
 {
   "name": "piggy",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Slack bot that has commands all to do with Pig Latin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,13 @@
   "dependencies": {
     "@slack/bolt": "^4.7.3",
     "dotenv": "^17.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nauticos/Piggy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nauticos/Piggy/issues"
+  },
+  "homepage": "https://github.com/Nauticos/Piggy#readme"
 }
