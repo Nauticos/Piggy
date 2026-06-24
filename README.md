@@ -11,7 +11,7 @@ List of Commands:
 * /piggy-wikipedia - Real pig Wikipedia
 * /piggy-fiction - Fictional pig Wikipedia
 * /piggy-joke - Get a joke
-* /piggy-quote - Get a random quote from a pig
+* /piggy-quote - Get a random quote from/about a pig
 * /piggy-idiom - Get a random pig idiom explained
 
 How to use Piggy:
